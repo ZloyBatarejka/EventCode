@@ -1,0 +1,46 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Solway', serif;
+}
+.wrapper {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to right, rgba(245,249,255,1) 0%, rgba(225,250,254,1) 0%, rgba(210,223,255,1) 33%, rgba(194,216,254,1) 64%, rgba(179,217,255,1) 100%);
+}
+.welcome {
+	font-size: 35px;
+	color: #3b3b3b;
+}
+.output {
+	display: flex;
+	flex-direction: row;
+
+}
+.output input {
+	display: block;
+	margin: 10px 10px 0 0;
+	padding: 10px;
+	background: rgba(145, 10, 132,.2);
+	font-size: 18px;
+}
+.output p {
+	font-size: 20px;
+}
+.btn {
+	width: 96%;
+	margin-top: 10px;
+	border-radius: 3px;
+	font-size: 18px;
+	padding: 5px;
+	background: rgba(123, 173, 42,.2);
+	cursor: pointer;
+}
+.hidden {
+	display: none;
+}
